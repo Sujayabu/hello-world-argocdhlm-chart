@@ -3,7 +3,7 @@ app:
 
 deployment:
   name: hello-world-app-argocdhlm
-  replicas: 3
+  replicas: 1 
 
 image:
   repository: sujayabu/myhelloworldimage
