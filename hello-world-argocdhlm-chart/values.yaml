@@ -1,0 +1,18 @@
+app:
+  name: hello-world-app-argocdhlm
+
+deployment:
+  name: hello-world-app-argocdhlm
+  replicas: 1
+
+image:
+  repository: sujayabu/myhelloworldimage
+  tag: v1
+
+containerPort: 5000
+
+service:
+  name: hello-world-service-argocdhlm
+  port: 5000
+  nodePort: 30019
+
